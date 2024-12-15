@@ -39,3 +39,8 @@ This module is developed for joindevops.com. we are creating following resources
 * vpc_peering_tags (Optional): Default value is empty. type is map.
 
 ### Outputs
+* vpc_id: VPC ID
+* public_subnet_ids: A list of 2 public subnet IDs created.
+* private_subnet_ids: A list of 2 private subnet IDs created.
+* database_subnet_ids: A list of 2 database subnet IDs created.
+* database_subnet_group_id: A database subnet group ID created.
